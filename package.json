@@ -1,0 +1,33 @@
+{
+  "name": "ML5-img-reco",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marie-phu-qui/ml5-tries.git",
+  "author": "marie-phu-qui <marie.nguyen.phu.qui@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "postinstall": "webpack",
+    "webpack": "webpack --watch",
+    "dev": "nodemon server",
+    "test": "jest --watchAll"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.4",
+    "react": "^16.5.2",
+    "webpack": "^4.22.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
